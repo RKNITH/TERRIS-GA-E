@@ -1,0 +1,36 @@
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="resources/logo.ico">
+    <title>Tetris Game</title>
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+        <div id="left-div">
+            <img src="resources/logo.png" id="logo">
+            <hr>
+
+            <div id="score-div">
+                <label> Score: </label>
+                <label id="score"></label>
+            </div>
+            <div id="lines-div">
+                <label> Lines: </label>
+                <label id="lines"></label>
+            </div>
+        </div>
+        <div id="game-container">
+            <img src="resources/background.png" id="background">
+            <canvas id="game-canvas"></canvas>
+        </div>
+    </div>
+</body>
+
+<script src="./index.js"></script>
+
+</html>
